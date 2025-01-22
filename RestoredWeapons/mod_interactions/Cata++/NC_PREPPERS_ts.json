@@ -1,0 +1,18 @@
+[
+  {
+    "id": "NC_PREPPER_carry_9mm",
+    "type": "item_group",
+    "subtype": "collection",
+    "magazine": 100,
+    "ammo": 100,
+    "entries": [
+      {
+        "distribution": [
+          { "collection": [ { "item": "cx4" }, { "item": "m9bigmag", "count": [ 2, 3 ] } ], "prob": 25 },
+          { "collection": [ { "item": "sten" }, { "item": "stenmag", "count": [ 2, 3 ] } ], "prob": 25 },
+          { "collection": [ { "item": "surv_full_9mm" }, { "item": "surv_9mm_mag", "count": [ 2, 3 ] } ], "prob": 50 }
+        ]
+      }
+    ]
+  }
+]

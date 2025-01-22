@@ -1,0 +1,20 @@
+[
+  {
+    "type": "item_group",
+    "id": "vz58v_mods",
+    "//": "Default mods for the vz. 58 V variant of the VZ combat rifle",
+    "subtype": "collection",
+    "entries": [ { "item": "folding_stock" } ]
+  },
+  {
+    "type": "item_group",
+    "id": "gunmod_milspec",
+    "copy-from": "gunmod_milspec",
+	"//": "Military specification gunmods found only at military sites.",
+    "extend": {
+      "items": [
+		[ "rm121aux", 10 ]
+      ]
+    }
+  }
+]

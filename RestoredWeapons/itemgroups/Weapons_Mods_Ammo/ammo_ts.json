@@ -1,0 +1,94 @@
+[
+  {
+    "type": "item_group",
+    "id": "ammo_rifle_obscure",
+    "copy-from": "ammo_rifle_obscure",
+	"subtype": "distribution",
+    "extend": {
+      "entries": [
+		{ "item": "700nx", "prob": 10 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "ammo_rifle_obscure_collection",
+    "copy-from": "ammo_rifle_obscure_collection",
+	"subtype": "collection",
+    "extend": {
+      "entries": [
+		{ "item": "700nx", "prob": 20 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "ammo_casings",
+    "copy-from": "ammo_casings",
+	"subtype": "distribution",
+    "extend": {
+      "entries": [
+		{ "item": "700nx_casing", "prob": 20 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "casings",
+    "copy-from": "casings",
+    "extend": {
+      "items": [
+		{ "item": "700nx_casing", "prob": 10 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "ammo_shotgun_rare",
+    "copy-from": "ammo_shotgun_rare",
+	"subtype": "distribution",
+    "extend": {
+      "entries": [
+		{ "item": "20x66_beanbag", "prob": 10 },
+		{ "item": "20x66_flare", "prob": 10 },
+		{ "item": "20x66_shot", "prob": 40 },
+		{ "item": "20x66_slug", "prob": 20 },
+		{ "item": "shot_dragon", "prob": 10 },
+		{ "item": "shot_beanbag", "prob": 20 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "ammo_shotgun_rare_collection",
+    "copy-from": "ammo_shotgun_rare_collection",
+	"subtype": "collection",
+    "extend": {
+      "entries": [
+		{ "item": "20x66_beanbag", "prob": 20 },
+		{ "item": "20x66_flare", "prob": 20 },
+		{ "item": "20x66_shot", "prob": 80 },
+		{ "item": "20x66_slug", "prob": 40 },
+		{ "item": "shot_dragon", "prob": 20 },
+		{ "item": "shot_beanbag", "prob": 40 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "ammo_shotgun_milspec",
+    "copy-from": "ammo_shotgun_milspec",
+	"//": "Military specification shotgun ammo found at military sites.",
+	"subtype": "distribution",
+    "extend": {
+      "entries": [
+		{ "item": "20x66_beanbag", "prob": 20 },
+		{ "item": "20x66_flare", "prob": 20 },
+		{ "item": "20x66_shot", "prob": 80 },
+		{ "item": "20x66_slug", "prob": 40 },
+		{ "item": "shot_dragon", "prob": 20 },
+		{ "item": "shot_beanbag", "prob": 40 }
+      ]
+    }
+  }
+]

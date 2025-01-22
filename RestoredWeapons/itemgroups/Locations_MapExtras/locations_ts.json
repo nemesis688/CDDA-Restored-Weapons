@@ -1,0 +1,12 @@
+[
+  {
+    "type": "item_group",
+    "id": "pawn",
+	"copy-from": "pawn",
+	 "extend": {
+      "items": [
+		[ "rm120c", 2 ]
+      ]
+    }
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "type": "item_group",
+    "id": "rare_magazines_9mm",
+    "copy-from": "rare_magazines_9mm",
+	"subtype": "distribution",
+	"//": "Collections of magazines for 9mm guns that are rare and should only be found in collections or gunshows, such as Calicos, Lugers.",
+    "extend": {
+      "items": [
+		{ "group": "magazines_9mm_mauser", "prob": 20 }
+      ]
+    }
+  }
+]

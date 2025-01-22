@@ -1,0 +1,24 @@
+[
+  {
+    "type": "item_group",
+    "id": "army_personal_locker",
+    "copy-from": "army_personal_locker",
+	"subtype": "distribution",
+    "extend": {
+      "entries": [
+		{ "item": "rm121aux", "prob": 1 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "helicopter",
+    "copy-from": "helicopter",
+	"subtype": "distribution",
+    "extend": {
+      "entries": [
+		{ "item": "rm614_lmg", "prob": 1, "charges": [ 0, 250 ] }
+      ]
+    }
+  }
+]

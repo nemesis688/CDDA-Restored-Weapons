@@ -1,0 +1,12 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "RestoredWeapons",
+    "name": "Restored Weapons",
+    "authors": [ "Nemesis688" ],
+    "description": "Adds Back Cut Weapons",
+    "category": "items",
+    "version": "1/20/2025",
+    "dependencies": [ "dda" ]
+  }
+]

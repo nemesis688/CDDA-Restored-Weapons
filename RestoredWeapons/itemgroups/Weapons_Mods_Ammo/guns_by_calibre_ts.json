@@ -1,0 +1,178 @@
+[
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common_9mm",
+    "copy-from": "guns_rifle_common_9mm",
+    "extend": {
+      "items": [
+		{ "group": "nested_cx4", "prob": 1 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common_display_9mm",
+    "copy-from": "guns_rifle_common_display_9mm",
+    "extend": {
+      "items": [
+		{ "group": "nested_cx4", "prob": 1 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common_223",
+    "copy-from": "guns_rifle_common_223",
+    "extend": {
+      "items": [
+		{ "group": "nested_zpapm90", "prob": 5 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common_762",
+    "copy-from": "guns_rifle_common_762",
+    "extend": {
+      "items": [
+		{ "group": "nested_vz58ts", "prob": 1 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_common_display_762",
+    "copy-from": "guns_rifle_common_display_762",
+    "extend": {
+      "items": [
+		{ "item": "vz58ts", "prob": 10 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common_everyday_carry_9mm",
+    "copy-from": "guns_pistol_common_everyday_carry_9mm",
+	"//": "If the gun is designed for conceal carry, such as being small, use prob from guns_pistol_common.  If full sized, 10-20% of the original prob.  This is an asspull but I know that full sized handguns are gonna be less commonly carried",
+    "extend": {
+      "items": [
+		{ "item": "kpf9", "prob": 24, "charges": [ 0, -1 ] }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common_display_223",
+    "copy-from": "guns_pistol_common_display_223",
+    "extend": {
+      "items": [
+		{ "group": "nested_plr16", "prob": 1 },
+		{ "group": "nested_minidraco556", "prob": 8 },
+		{ "group": "nested_zpap85", "prob": 8 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common_display_other",
+    "copy-from": "guns_pistol_common_display_other",
+    "extend": {
+      "items": [
+		{ "item": "raging_judge", "prob": 10 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_rare_9mm",
+    "copy-from": "guns_pistol_rare_9mm",
+    "extend": {
+      "items": [
+		{ "group": "nested_m714", "prob": 8 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_rare_display_9mm",
+    "copy-from": "guns_pistol_rare_display_9mm",
+    "extend": {
+      "items": [
+		{ "item": "mauser_m714", "prob": 8 },
+		{ "item": "minidraco556", "prob": 8 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common_10mm",
+    "copy-from": "guns_pistol_common_10mm",
+    "extend": {
+      "items": [
+		{ "group": "nested_STI_DS_10", "prob": 10 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common_380",
+    "copy-from": "guns_pistol_common_380",
+    "extend": {
+      "items": [
+		{ "group": "nested_taurus_spectrum", "prob": 50 },
+		{ "group": "nested_kp3at", "prob": 50 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common_22",
+    "copy-from": "guns_pistol_common_22",
+    "extend": {
+      "items": [
+		{ "group": "nested_sw_22", "prob": 5 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common_display_22",
+    "copy-from": "guns_pistol_common_display_22",
+    "extend": {
+      "items": [
+		{ "item": "j22", "prob": 8 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common_display_357mag",
+    "copy-from": "guns_pistol_common_display_357mag",
+    "extend": {
+      "items": [
+		{ "item": "cop_38", "prob": 8 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common_40",
+    "copy-from": "guns_pistol_common_40",
+    "extend": {
+      "items": [
+		{ "group": "nested_walther_ppq_40", "prob": 5 },
+		{ "group": "nested_90two40", "prob": 5 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_common_32",
+    "copy-from": "guns_pistol_common_32",
+    "extend": {
+      "items": [
+		{ "group": "nested_sig_p230", "prob": 5 }
+      ]
+    }
+  }
+]

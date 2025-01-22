@@ -1,0 +1,66 @@
+[
+  {
+    "id": "ksg-25",
+    "copy-from": "shotgun_pump",
+    "looks_like": "remington_870",
+    "type": "GUN",
+    "name": { "str": "extended bullpup shotgun" },
+    "description": "This pump-action shotgun uses a system of twin magazines to carry 24 total rounds of 12-gauge shotgun shells.  Each tube must be loaded separately, but this offers the option of loading different ammunition for different situations.  As the weapon's trigger is situated forwards of the chamber in what is termed as a 'bullpup' design, the firearm's still only as long as conventional shotguns despite having a comparatively far higher capacity.",
+    "variant_type": "gun",
+    "variants": [
+      {
+        "id": "ksg-25",
+        "name": { "str": "Kel-Tec KSG-25 shotgun" },
+        "description": "A bullpup pump-action shotgun, the Kel-Tec KSG-25 uses a pair of magazine tubes to increase its capacity.  Each tube has to be loaded separately, but this offers the option of loading different ammunition for different situations.  The big brother of the KSG, it has a longer barrel and longer magazine tubes."
+      }
+    ],
+    "ascii_picture": "ksg-25",
+    "weight": "2100 g",
+    "volume": "4495 ml",
+    "longest_side": "971 mm",
+    "barrel_length": "775 mm",
+    "price": "1 kUSD 400 USD",
+    "price_postapoc": "40 USD",
+    "to_hit": -1,
+    "material": [ "steel", "plastic" ],
+    "ranged_damage": { "damage_type": "bullet", "amount": 1 },
+    "dispersion": 425,
+    "sight_dispersion": 500,
+    "durability": 7,
+    "clip_size": 12,
+    "built_in_mods": [ "ksg25_aux_shotgun" ],
+    "valid_mod_locations": [
+      [ "barrel", 1 ],
+      [ "brass catcher", 1 ],
+      [ "grip mount", 1 ],
+      [ "mechanism", 2 ],
+      [ "muzzle", 1 ],
+      [ "rail mount", 1 ],
+      [ "sights", 1 ],
+      [ "sling", 1 ],
+      [ "underbarrel", 2 ]
+    ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "shot": 12 } } ],
+    "melee_damage": { "bash": 9 }
+  },
+  {
+    "//": "Don't seem to be able to extend variants.",
+    "id": "mossberg_500",
+    "copy-from": "mossberg_500",
+    "type": "GUN",
+    "name": { "str": "6-round combat shotgun" },
+    "variant_type": "gun",
+	"variants": [
+      {
+        "id": "mossberg_500",
+        "name": { "str": "Mossberg 500 Field shotgun" },
+        "description": "The Mossberg 500 is a popular series of pump-action shotguns, often acquired for military use.  It is noted for its high durability and low recoil.  This one is fitted with a 28 inch barrel with sight rib."
+      },
+	  {
+        "id": "SPAS_12",
+        "name": { "str": "Franchi SPAS-12 shotgun" },
+        "description": "Mean and intimidating looking, the SPAS-12 has the dubious honor of being declared a destructive device and being banned from import by name, adding to its already considerable appeal.  It is a combination pump-action and semi-automatic firearm, with an arm stabilizing hook for one handed shooting."
+	  }
+    ]
+  }
+]

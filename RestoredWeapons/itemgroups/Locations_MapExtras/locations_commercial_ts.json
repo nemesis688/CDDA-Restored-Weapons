@@ -1,0 +1,14 @@
+[
+  {
+    "type": "item_group",
+    "id": "pawn_guns",
+	"copy-from": "pawn_guns",
+	 "extend": {
+      "items": [
+		[ "trex_gun", 1 ],
+		[ "700nx", 1 ],
+		[ "700nx_casing", 1 ]
+      ]
+    }
+  }
+]

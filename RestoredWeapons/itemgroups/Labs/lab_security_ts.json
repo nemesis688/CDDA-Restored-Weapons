@@ -1,0 +1,67 @@
+[
+  {
+    "type": "item_group",
+    "id": "SUS_rivtech_loot",
+	"copy-from": "SUS_rivtech_loot",
+	"subtype": "distribution",
+	"//": "This group is for rare spawns of rivetech matched sets.",
+	 "extend": {
+      "entries": [
+		{ "group": "SUS_rivtech_20x66", "prob": 40 },
+		{ "item": "plasma_rifle", "prob": 10 },
+		{ "item": "plasma_gun", "prob": 10 }
+      ]
+    }
+  },
+  {
+    "id": "SUS_rivtech_20x66",
+    "type": "item_group",
+    "//": "This group is for rare spawns of rivetech matched sets.",
+    "subtype": "collection",
+    "entries": [
+      { "item": "20x66_10_mag" },
+      {
+        "distribution": [
+          { "item": "20x66_beanbag", "prob": 60, "count": [ 1, 3 ] },
+          { "item": "20x66_exp", "prob": 10, "count": [ 1, 3 ] },
+          { "item": "20x66_flare", "prob": 40, "count": [ 1, 3 ] },
+          { "item": "20x66_frag", "prob": 30, "count": [ 1, 3 ] },
+          { "item": "20x66_shot", "prob": 60, "count": [ 1, 3 ] },
+          { "item": "20x66_slug", "prob": 60, "count": [ 1, 3 ] }
+        ]
+      },
+      {
+        "distribution": [ { "item": "rm120c", "prob": 50 }, { "item": "rm20", "prob": 50 }, { "item": "rm228", "prob": 40 } ]
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "SUS_rivtech_8x40",
+	"copy-from": "SUS_rivtech_8x40",
+	"subtype": "collection",
+	"//": "This group is for rare spawns of rivetech matched sets. Not sure how extending these works",
+	 "extend": {
+      "entries": [
+		{
+         "distribution": [
+          { "item": "8x40_250_mag", "prob": 10 },
+          { "item": "8x40_500_mag", "prob": 10 }
+         ]
+		}
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "SUS_rivtech_misc",
+	"copy-from": "SUS_rivtech_misc",
+	"subtype": "distribution",
+	"//": "This group is for rare spawns of rivetech matched sets.",
+	 "extend": {
+      "entries": [
+		{ "item": "rm121aux", "prob": 50 }
+      ]
+    }
+  }
+]

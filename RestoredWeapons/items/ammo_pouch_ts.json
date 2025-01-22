@@ -1,0 +1,129 @@
+[
+  {
+    "id": "ammo_pouch",
+	"copy-from": "ammo_pouch",
+    "type": "ARMOR",
+	"name": { "str": "ammo pouch", "str_pl": "ammo pouches" },
+	"//": "I dont think extend works.",
+	"pocket_data": [
+      {
+        "ammo_restriction": {
+          "pebble": 60,
+          "458wm": 60,
+          "50": 60,
+          "4570": 60,
+          "BB": 60,
+          "410shot": 60,
+          "22": 60,
+          "shot": 60,
+          "9mm": 60,
+          "357sig": 60,
+          "9x18": 60,
+          "380": 60,
+          "38": 60,
+          "40": 60,
+          "10mm": 60,
+          "44": 60,
+          "45": 60,
+          "454": 60,
+          "45colt": 60,
+          "500": 60,
+          "57": 60,
+          "46": 60,
+          "762": 60,
+          "545x39": 60,
+          "223": 60,
+          "3006": 60,
+          "123ln": 60,
+          "50beowulf": 60,
+          "450": 60,
+          "338lapua": 60,
+          "303": 60,
+          "77mm_arisaka": 60,
+          "270win": 60,
+          "308": 60,
+          "12mm": 60,
+          "8x40mm": 60,
+          "stimpack_ammo": 60,
+          "ampoule": 60,
+          "300": 60,
+          "32": 60,
+          "762x25": 60,
+          "flintlock": 60,
+          "36paper": 60,
+          "44paper": 60,
+          "762R": 60,
+          "paintball": 60,
+		  "700nx": 60,
+		  "20x66mm": 60
+        },
+        "moves": 35,
+        "volume_encumber_modifier": 0.3
+      }
+    ]
+  },
+  {
+    "id": "tacvest",
+	"copy-from": "tacvest",
+    "type": "ARMOR",
+    "name": { "str": "tac vest" },
+    "description": "This light vest is meant to carry your magazines, shells and pistols.  They are popular among law enforcement, but less so than combination tactical vests incorporating Kevlar.",
+    "pocket_data": [
+      {
+        "magazine_well": "350 ml",
+        "pocket_type": "CONTAINER",
+        "holster": true,
+        "max_contains_volume": "1000 ml",
+        "max_contains_weight": "2 kg",
+        "max_item_length": "30 cm",
+        "moves": 50,
+        "volume_encumber_modifier": 0.3
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_item_length": "300 mm",
+        "max_contains_volume": "1 L",
+        "max_contains_weight": "2 kg",
+        "moves": 100,
+        "volume_encumber_modifier": 0.25
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_item_length": "300 mm",
+        "max_contains_volume": "1 L",
+        "max_contains_weight": "2 kg",
+        "moves": 100,
+        "volume_encumber_modifier": 0.25
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_item_length": "250 mm",
+        "max_contains_volume": "800 ml",
+        "max_contains_weight": "1600 g",
+        "moves": 100,
+        "volume_encumber_modifier": 0.25
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_item_length": "250 mm",
+        "max_contains_volume": "800 ml",
+        "max_contains_weight": "1600 g",
+        "moves": 100,
+        "volume_encumber_modifier": 0.25
+      },
+      {
+        "pocket_type": "CONTAINER",
+        "max_item_length": "250 mm",
+        "max_contains_volume": "800 ml",
+        "max_contains_weight": "1600 g",
+        "moves": 100,
+        "volume_encumber_modifier": 0.25
+      },
+      {
+        "ammo_restriction": { "410shot": 6, "shot": 6, "signal_flare": 6, "20x66mm": 50 },
+        "moves": 25,
+        "volume_encumber_modifier": 0.2
+      }
+    ]
+  }
+]

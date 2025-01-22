@@ -1,0 +1,12 @@
+[
+  {
+    "type": "item_group",
+    "id": "antique_rare",
+    "copy-from": "antique_rare",
+    "extend": {
+      "items": [
+		{ "item": "trex_gun", "prob": 4 }
+      ]
+    }
+  }
+]

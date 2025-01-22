@@ -1,0 +1,143 @@
+[
+  {
+    "type": "item_group",
+    "id": "guns_rifle_display_pieces",
+    "copy-from": "guns_rifle_display_pieces",
+	"subtype": "distribution",
+    "extend": {
+      "items": [
+		{ "item": "vz58_p", "variant": "vz58_p", "prob": 5 },
+		{ "item": "vz58_p", "variant": "vz58_v", "prob": 5 },
+		{ "item": "fs2000", "prob": 6 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_collectible",
+    "copy-from": "guns_rifle_collectible",
+	"subtype": "distribution",
+    "extend": {
+      "items": [
+		{ "item": "trex_gun", "prob": 15 },
+		{ "item": "colt_lightning", "prob": 20 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "sidearms_cop",
+    "copy-from": "sidearms_cop",
+    "extend": {
+      "items": [
+		{ "item": "walther_ppq_40", "prob": 5 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_hunting_display",
+    "copy-from": "guns_pistol_hunting_display",
+	"subtype": "distribution",
+	"//": "Handguns used for hunting, anything from bunnies to bison.  Unloaded and without magazines.",
+    "//2": "These numbers are mostly guesses and some scaled-down numbers.  If there's better info on hunting calibers please change",
+    "extend": {
+      "items": [
+		{ "item": "raging_judge", "prob": 10 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_display_pieces",
+    "copy-from": "guns_pistol_display_pieces",
+	"//": "Pistols that are sought after but with little or no historical value.  Think of magnum handguns, stuff made famous by movies, guns that \"look cool\".  Should all be unloaded, but with magazines as these are display pieces. Putting old 'Obscure' here",
+	"subtype": "distribution",
+    "extend": {
+      "items": [
+		{ "item": "plr16", "prob": 3 },
+		{ "item": "oa93", "prob": 3 },
+		{ "item": "raging_judge", "prob": 5 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_pistol_collectible",
+    "copy-from": "guns_pistol_collectible",
+	"//": "Also putting collectible SMGs.",
+    "extend": {
+      "items": [
+		{ "item": "moss_brownie", "prob": 3 },
+		{ "item": "mp18", "variant": "mp18", "prob": 3 },
+		{ "item": "ppsh", "prob": 3 },
+		{ "item": "american_180", "prob": 10 },
+		{ "item": "af2011a1_38super", "prob": 15 },
+		{ "item": "fn1910", "prob": 12 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_rifle_milspec",
+    "copy-from": "guns_rifle_milspec",
+	"//": "Military specification rifles only ever found at military sites.",
+    "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
+    "extend": {
+      "items": [
+		{ "group": "nested_m231pfw", "prob": 2 },
+		{ "group": "nested_arx160", "prob": 10 },
+		{ "group": "nested_rm614_lmg", "prob": 1 },
+		{ "group": "nested_rm88_battle_rifle", "prob": 1 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_energy",
+    "copy-from": "guns_energy",
+	"//": "Assorted factory crafted energy weapons.",
+    "extend": {
+      "items": [
+		{ "item": "plasma_gun", "prob": 10, "charges": [ 0, 25 ] }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_shotgun_common",
+    "copy-from": "guns_shotgun_common",
+	"//": "Military specification rifles only ever found at military sites.",
+    "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
+    "extend": {
+      "items": [
+		{ "group": "nested_saiga_410", "prob": 5 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_shotgun_common_display",
+    "copy-from": "guns_shotgun_common_display",
+	"subtype": "distribution",
+    "//": "Shotguns commonly owned by citizens and found in gun stores.",
+    "//2": "To-do, add in more 410 shotguns along with 20 gauge",
+    "extend": {
+      "items": [
+		{ "item": "ksg-25", "prob": 5 }
+      ]
+    }
+  },
+  {
+    "type": "item_group",
+    "id": "guns_shotgun_milspec",
+    "copy-from": "guns_shotgun_milspec",
+	"//": "Military shotguns currently in service.",
+    "//2": "Making the assumption any loaded gun will have additional ammo and mags with it.",
+    "extend": {
+      "items": [
+		{ "group": "nested_rm20", "prob": 1 }
+      ]
+    }
+  }
+]

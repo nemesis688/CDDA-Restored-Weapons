@@ -1,0 +1,14 @@
+[
+  {
+    "type": "item_group",
+    "id": "SUS_hunting_rifle",
+	"copy-from": "SUS_hunting_rifle",
+	"subtype": "collection",
+	"//": "items found in a rifle hunting space",
+	 "extend": {
+      "entries": [
+		{ "item": "colt_lightning", "prob": 2, "charges": [ 0, 10 ] }
+      ]
+    }
+  }
+]

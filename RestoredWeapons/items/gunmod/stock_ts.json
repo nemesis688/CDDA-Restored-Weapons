@@ -1,0 +1,18 @@
+[
+  {
+    "id": "stock_mauser",
+	"copy-from": "stock_mauser",
+    "type": "GUNMOD",
+    "name": { "str": "Mauser C96 stock" },
+	"extend": {
+      "mod_targets": [
+		"mauser_m714"
+      ],
+	  "pocket_data": [
+		{
+		"item_restriction": [ "mauser_m714" ]
+		}
+      ]
+    }
+  }
+]

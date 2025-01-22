@@ -1,0 +1,24 @@
+[
+  {
+    "id": "dias",
+	"copy-from": "dias",
+    "type": "GUNMOD",
+    "name": { "str": "drop-in auto sear" },
+	"extend": {
+      "mod_targets": [
+		"oa93"
+      ]
+    }
+  },
+  {
+    "id": "llink",
+	"copy-from": "llink",
+    "type": "GUNMOD",
+    "name": { "str": "lightning link" },
+	"extend": {
+      "mod_targets": [
+		"oa93"
+      ]
+    }
+  }
+]

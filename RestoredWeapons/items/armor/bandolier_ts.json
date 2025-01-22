@@ -1,0 +1,95 @@
+[
+  {
+    "id": "bandolier_rifle",
+	"copy-from": "bandolier_rifle",
+    "type": "ARMOR",
+	"//": "I dont extend works.",
+	 "name": { "str": "rifle bandolier" },
+	 "pocket_data": [
+      {
+        "ammo_restriction": {
+          "22": 16,
+          "223": 16,
+          "270win": 16,
+          "300blk": 16,
+          "545x39": 16,
+          "3006": 16,
+          "123ln": 16,
+          "303": 16,
+          "77mm_arisaka": 16,
+          "308": 16,
+          "300": 16,
+          "762": 16,
+          "762R": 16,
+          "8x40mm": 16,
+          "4570": 16,
+          "50beowulf": 16,
+          "450": 16,
+          "338lapua": 16,
+          "50": 16,
+          "458wm": 16,
+		  "700nx": 16
+        },
+        "moves": 20,
+        "volume_encumber_modifier": 0.3
+      }
+    ]
+  },
+  {
+    "id": "bandolier_wrist",
+	"copy-from": "bandolier_wrist",
+    "type": "ARMOR",
+	"//": "I dont think this works.",
+	"name": { "str": "wrist bandolier" },
+	"extend": {
+	"pocket_data": [
+      {
+        "ammo_restriction": {
+          "22": 4,
+          "223": 4,
+          "270win": 4,
+          "300blk": 4,
+          "545x39": 4,
+          "3006": 4,
+          "303": 4,
+          "77mm_arisaka": 4,
+          "308": 4,
+          "300": 4,
+          "762": 4,
+          "762R": 4,
+          "8x40mm": 4,
+          "4570": 4,
+          "50beowulf": 4,
+          "450": 4,
+          "338lapua": 4,
+          "50": 4,
+          "458wm": 4,
+		  "700nx": 4
+        },
+        "moves": 20,
+        "volume_encumber_modifier": 0.3
+      }
+    ]
+	 }
+  },
+  {
+    "id": "bandolier_shotgun",
+	"copy-from": "bandolier_shotgun",
+    "type": "ARMOR",
+    "name": { "str": "waist shotgun bandolier" },
+    "description": "A leather bandolier worn around the waist for keeping shotgun shells close to hand.",
+    "pocket_data": [
+      { "ammo_restriction": { "410shot": 25, "shot": 25, "signal_flare": 25, "20x66mm": 25 }, "moves": 25, "volume_encumber_modifier": 0.3 }
+    ]
+  },
+  {
+    "id": "torso_bandolier_shotgun",
+	"copy-from": "torso_bandolier_shotgun",
+    "type": "ARMOR",
+    "name": { "str": "torso shotgun bandolier" },
+    "description": "A leather bandolier strapped around the torso for keeping shotgun shells close to hand.",
+    "pocket_data": [
+      { "ammo_restriction": { "410shot": 50, "shot": 50, "signal_flare": 50, "20x66mm": 50 }, "moves": 35, "volume_encumber_modifier": 0.3 }
+    ]
+  }
+]

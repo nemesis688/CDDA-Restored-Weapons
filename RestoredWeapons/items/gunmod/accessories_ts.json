@@ -1,0 +1,16 @@
+[
+  {
+    "id": "belt_clip",
+	"copy-from": "belt_clip",
+    "type": "GUNMOD",
+    "name": { "str": "belt clip" },
+	"extend": {
+      "mod_targets": [
+		"moss_brownie",
+		"kp3at",
+		"kpf9",
+		"cop_38"
+      ]
+    }
+  }
+]
