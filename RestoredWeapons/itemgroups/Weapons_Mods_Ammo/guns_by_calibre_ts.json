@@ -150,7 +150,8 @@
     "copy-from": "guns_pistol_common_display_357mag",
     "extend": {
       "items": [
-		{ "item": "cop_38", "prob": 8 }
+		{ "item": "cop_38", "prob": 8 },
+		{ "item": "mr73", "prob": 2 }
       ]
     }
   },

@@ -8,7 +8,8 @@
       "items": [
 		{ "item": "vz58_p", "variant": "vz58_p", "prob": 5 },
 		{ "item": "vz58_p", "variant": "vz58_v", "prob": 5 },
-		{ "item": "fs2000", "prob": 6 }
+		{ "item": "fs2000", "prob": 6 },
+		{ "item": "famas", "prob": 5 }
       ]
     }
   },
@@ -57,7 +58,8 @@
       "items": [
 		{ "item": "plr16", "prob": 3 },
 		{ "item": "oa93", "prob": 3 },
-		{ "item": "raging_judge", "prob": 5 }
+		{ "item": "raging_judge", "prob": 5 },
+		{ "item": "mr73", "prob": 2 }
       ]
     }
   },

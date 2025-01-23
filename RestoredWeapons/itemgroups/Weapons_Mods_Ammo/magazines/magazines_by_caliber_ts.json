@@ -10,5 +10,18 @@
 		{ "group": "magazines_9mm_mauser", "prob": 20 }
       ]
     }
+  },
+  {
+    "type": "item_group",
+    "id": "common_magazines_223",
+    "copy-from": "common_magazines_223",
+	"subtype": "distribution",
+	"//": "Collections of magazines for 223/556 guns that can be found in gunstores.",
+	"//2": "Almost certainly shouldn't put Famas Mag here buy yolo.",
+    "extend": {
+      "items": [
+		{ "item": "famasmag", "prob": 1 }
+      ]
+    }
   }
 ]
