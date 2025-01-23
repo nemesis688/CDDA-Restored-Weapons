@@ -1655,16 +1655,6 @@
     "replace": "remington_870"
   },
   {
-    "id": "famas",
-    "type": "MIGRATION",
-    "replace": "rdb_223"
-  },
-  {
-    "id": "famasmag",
-    "type": "MIGRATION",
-    "replace": "stanag30"
-  },
-  {
     "id": "cz75mag_12rd",
     "type": "MIGRATION",
     "replace": "cz75mag_16rd"
