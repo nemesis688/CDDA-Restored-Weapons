@@ -1,0 +1,80 @@
+Restored from
+
+Elephant Gun (trex, 700NX):
+https://github.com/CleverRaven/Cataclysm-DDA/pull/70210
+
+VZ. 58:
+https://github.com/CleverRaven/Cataclysm-DDA/pull/74422
+
+MP18, OA-93, PLR 16, M231, and Mossberg Brownie:
+https://github.com/CleverRaven/Cataclysm-DDA/pull/73862
+
+Raging Judge, A180, KSG-25, PPSH: Also added A180 to a spawn group
+https://github.com/CleverRaven/Cataclysm-DDA/pull/74397
+
+STI 2011, P-3AT, PF-9, M714, Taurus Spectrum, ZPAP 85, .40 PPQ, .40 90-two, P230, ARX-160, CX4, Saiga 410: Left out the quest changes for Cody's Pressin mod
+https://github.com/CleverRaven/Cataclysm-DDA/pull/77206
+ 
+SPAS-12: added to slp spawn
+https://github.com/CleverRaven/Cataclysm-DDA/pull/72398
+ 
+Rivtech 20x66 Ammo and Guns: Didn't add back to NPCs. Skipped adding the mods to the blacklist for bayonets
+https://github.com/CleverRaven/Cataclysm-DDA/pull/76486
+https://github.com/CleverRaven/Cataclysm-DDA/pull/76573
+ 
+Rivtech LMG/battle rifle:
+https://github.com/CleverRaven/Cataclysm-DDA/pull/76393
+ 
+AF-2011A1:
+https://github.com/CleverRaven/Cataclysm-DDA/pull/74713
+
+FS2000, Colt Lightning:
+https://github.com/CleverRaven/Cataclysm-DDA/pull/74610
+
+SW 22A, J-22, COP 357: Didn't add back to NPCs
+https://github.com/CleverRaven/Cataclysm-DDA/pull/74417
+
+Plasma Weapons: Replaced with exodii ones. Re-added old ones. In nanofab list and rivtech security list. Ammo might be really rare
+https://github.com/CleverRaven/Cataclysm-DDA/pull/78932
+
+fn1910: Added too collectible pistol spawn group
+https://github.com/CleverRaven/Cataclysm-DDA/pull/76813
+
+Famas:
+https://github.com/CleverRaven/Cataclysm-DDA/pull/72659
+
+Manurhin MR73
+https://github.com/CleverRaven/Cataclysm-DDA/pull/74636
+
+--Didnt do
+Some pipe rifles (32, 380, 45 ACP, 9x19/18, 40 S&W) have no or little to no rim to work in a pipe rifle. Big Horn Model 89 and Lemat revolver:
+Skipping the Pipe weaons
+https://github.com/CleverRaven/Cataclysm-DDA/pull/72429
+
+
+Skipped .460 Rowland, Didn't re-add 12-gauge gatling gun (bigun) to spawn list
+Skipped AK-74m. Seems to have been replaced with a similar gun
+https://github.com/CleverRaven/Cataclysm-DDA/pull/71575
+
+Skipped the ACRs. They were even recalled at one point
+https://github.com/CleverRaven/Cataclysm-DDA/pull/76034
+
+Skipped the Survivor Launchers:
+https://github.com/CleverRaven/Cataclysm-DDA/pull/75172
+
+Skipped the G36 was replaced with a civilian version:
+https://github.com/CleverRaven/Cataclysm-DDA/pull/75154
+
+Skipped Acid bomb:
+https://github.com/CleverRaven/Cataclysm-DDA/pull/74900
+
+
+Think about old Survivor stuff
+-Naginata
+	https://github.com/CleverRaven/Cataclysm-DDA/pull/74355
+	https://github.com/CleverRaven/Cataclysm-DDA/pull/74372
+-Revolvers
+	https://github.com/CleverRaven/Cataclysm-DDA/pull/72638
+	
+Maybe find  new  places for some of these spawns 
+https://github.com/CleverRaven/Cataclysm-DDA/pull/78860/files
