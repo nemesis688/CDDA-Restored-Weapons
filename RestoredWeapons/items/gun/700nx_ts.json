@@ -1,8 +1,8 @@
 [
   {
-    "id": "trex_gun",
+    "id": "trex_gun_rw",
     "copy-from": "rifle_manual",
-    "looks_like": "modular_ar15",
+    "looks_like": "trex_gun",
     "type": "GUN",
     "name": { "str": "Elephant gun" },
     "description": "A ornately engraved, custom-made double rifle specially designed for the hunting of huge game.  You could obviously kill everything with this, EVERYTHING.  If you ever find enough ammo of course.",
@@ -15,7 +15,7 @@
     "to_hit": 1,
     "material": [ "steel", "wood" ],
     "color": "light_blue",
-    "ammo": [ "700nx" ],
+    "ammo": [ "700nx_rw" ],
     "dispersion": 90,
     "durability": 8,
     "blackpowder_tolerance": 56,
@@ -34,7 +34,7 @@
       [ "underbarrel", 1 ]
     ],
     "flags": [ "NEVER_JAMS", "RELOAD_EJECT", "RELOAD_ONE", "EASY_CLEAN" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "700nx": 2 } } ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "700nx_rw": 2 } } ],
     "melee_damage": { "bash": 12 }
   }
 ]

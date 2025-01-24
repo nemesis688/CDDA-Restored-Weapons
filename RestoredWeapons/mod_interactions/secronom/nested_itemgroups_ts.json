@@ -5,7 +5,7 @@
     "//": "this is a distribution for the gun, reasonable number of backup mags, and some ammo to repack",
     "subtype": "collection",
     "ammo": 100,
-    "entries": [ { "item": "moss_brownie" }, { "group": "on_hand_22" } ]
+    "entries": [ { "item": "moss_brownie_rw" }, { "group": "on_hand_22" } ]
   },
   {
     "id": "nested_oa93",
@@ -14,7 +14,7 @@
     "subtype": "collection",
     "ammo": 100,
     "entries": [
-      { "item": "oa93", "charges-min": 0, "charges-max": 30 },
+      { "item": "oa93_rw", "charges-min": 0, "charges-max": 30 },
       { "group": "stanag_10_random" },
       { "group": "stanag_10_random", "prob": 50 },
       { "group": "on_hand_223" }

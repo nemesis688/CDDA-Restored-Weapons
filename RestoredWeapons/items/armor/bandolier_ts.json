@@ -28,7 +28,7 @@
           "338lapua": 16,
           "50": 16,
           "458wm": 16,
-		  "700nx": 16
+		  "700nx_rw": 16
         },
         "moves": 20,
         "volume_encumber_modifier": 0.3
@@ -64,7 +64,7 @@
           "338lapua": 4,
           "50": 4,
           "458wm": 4,
-		  "700nx": 4
+		  "700nx_rw": 4
         },
         "moves": 20,
         "volume_encumber_modifier": 0.3
@@ -79,7 +79,7 @@
     "name": { "str": "waist shotgun bandolier" },
     "description": "A leather bandolier worn around the waist for keeping shotgun shells close to hand.",
     "pocket_data": [
-      { "ammo_restriction": { "410shot": 25, "shot": 25, "signal_flare": 25, "20x66mm": 25 }, "moves": 25, "volume_encumber_modifier": 0.3 }
+      { "ammo_restriction": { "410shot": 25, "shot": 25, "signal_flare": 25, "20x66mm_rw": 25 }, "moves": 25, "volume_encumber_modifier": 0.3 }
     ]
   },
   {
@@ -89,7 +89,7 @@
     "name": { "str": "torso shotgun bandolier" },
     "description": "A leather bandolier strapped around the torso for keeping shotgun shells close to hand.",
     "pocket_data": [
-      { "ammo_restriction": { "410shot": 50, "shot": 50, "signal_flare": 50, "20x66mm": 50 }, "moves": 35, "volume_encumber_modifier": 0.3 }
+      { "ammo_restriction": { "410shot": 50, "shot": 50, "signal_flare": 50, "20x66mm_rw": 50 }, "moves": 35, "volume_encumber_modifier": 0.3 }
     ]
   }
 ]

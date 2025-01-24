@@ -1,6 +1,6 @@
 [
   {
-    "id": "vz58_p",
+    "id": "vz58_p_rw",
     "copy-from": "rifle_auto",
     "looks_like": "modular_ar15",
     "type": "GUN",
@@ -16,12 +16,12 @@
     "variant_type": "gun",
     "variants": [
       {
-        "id": "vz58_p",
+        "id": "vz58_p_rw",
         "name": { "str": "Samopal vz. 58 P rifle" },
         "description": "This lightweight and relatively svelte Cold War assault rifle was originally developed for use by the Czechoslovak army, in place of the various licensed Kalashnikov rifles which were then prevalent around eastern Europe.  Bearing more than a passing resemblance to the AK-47, this weapon nevertheless features a completely different array of internals and possesses no interchangeable parts with its Russian counterpart.  Making use of proprietary magazines and a 15.4 inch barrel, the vz. 58 was regarded by some to be the Kalashnikov's lesser-known superior.  Likely reconstructed from a pre-1986 imported parts kit, or brought back from a third world war zone, this particular weapon features a removable wood impregnated plastic buttstock and a 'P' suffixed designation, which both mark it as an original infantry model."
       },
       {
-        "id": "vz58_v",
+        "id": "vz58_v_rw",
         "name": { "str": "Samopal VZ 58 V rifle" },
         "description": "This lightweight and relatively svelte Cold War assault rifle was originally developed for use by the Czechoslovak army, in place of the various licensed Kalashnikov rifles which were then prevalent around eastern Europe.  Bearing more than a passing resemblance to the AK-47, this weapon nevertheless features a completely different array of internals and possesses no interchangeable parts with its Russian counterpart.  Making use of proprietary magazines and a 15.4 inch barrel, the vz. 58 was regarded by some to be the Kalashnikov's lesser-known superior.  Likely reconstructed from a pre-1986 imported parts kit, or brought back from a third world war zone, this particular weapon features a removable side-folding buttstock and a 'V' suffixed designation, which both mark it as an original airborne or crew issued model."
       }
@@ -48,12 +48,12 @@
       [ "stock accessory", 2 ],
       [ "underbarrel mount", 1 ]
     ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "vz58mag30", "vz58mag10" ] } ],
+    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "vz58mag30_rw", "vz58mag10_rw" ] } ],
     "melee_damage": { "bash": 12 }
   },
   {
-    "id": "vz58ts",
-    "copy-from": "vz58_p",
+    "id": "vz58ts_rw",
+    "copy-from": "vz58_p_rw",
     "looks_like": "modular_ar15",
     "type": "GUN",
     "name": { "str": "vz. 58 tactical rifle" },
@@ -61,7 +61,7 @@
     "variant_type": "gun",
     "variants": [
       {
-        "id": "vz58ts",
+        "id": "vz58ts_rw",
         "name": { "str": "vz. 58 Tactical Sporter rifle" },
         "description": "A modern semi-automatic clone of the Czechoslovak-produced vz. 58 assault rifle, chambered in the Soviet 7.62x39mm cartridge.  Built off of surplus vz. 58 parts, the rifle makes use of additional American made components such as the receiver, barrel, and buttstock to comply with US importation laws.  Featuring an extended 16 inch barrel, an M4 style stock adapter and tube, and an integrated side rail for optics mounting, this Cold War rifle makes for a relatively handy post-apocalyptic companion."
       }
@@ -73,9 +73,9 @@
     "default_mods": [ "folding_stock", "rail_mount", "offset_sight_rail", "muzzle_brake" ]
   },
   {
-    "id": "arx160",
+    "id": "arx160_rw",
     "copy-from": "rifle_auto",
-    "looks_like": "modular_ar15",
+    "looks_like": "arx160",
     "type": "GUN",
     "name": { "str": "Beretta AK rifle" },
     "//": "Total unloaded weight of gun 3000 grams.  Current weight of folding stock 200 grams.",
@@ -83,7 +83,7 @@
     "variant_type": "gun",
     "variants": [
       {
-        "id": "arx160",
+        "id": "arx160_rw",
         "name": { "str": "Beretta ARX-160 rifle" },
         "description": "The Beretta ARX-160 was a Phase II contender in the United States Army Individual Carbine competition to replace the M4 carbine.  It failed to replace it, but it is widely used by military all around the world.  This version is chambered for 7.62x39mm."
       }

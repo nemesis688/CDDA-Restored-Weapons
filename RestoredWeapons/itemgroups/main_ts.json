@@ -7,8 +7,8 @@
 	"subtype": "distribution",
     "extend": {
       "entries": [
-		{ "item": "plasma_rifle", "prob": 10 },
-		{ "item": "plasma_gun", "prob": 10 }
+		{ "item": "plasma_rifle_rw", "prob": 10 },
+		{ "item": "plasma_gun_rw", "prob": 10 }
       ]
     }
   }

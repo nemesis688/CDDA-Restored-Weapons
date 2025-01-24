@@ -1,7 +1,7 @@
 [
   {
-    "id": "moss_brownie",
-    "looks_like": "glock_17",
+    "id": "moss_brownie_rw",
+    "looks_like": "moss_brownie",
     "copy-from": "pistol_base",
     "type": "GUN",
     "name": { "str": ".22 derringer pistol" },
@@ -9,7 +9,7 @@
     "variant_type": "gun",
     "variants": [
       {
-        "id": "moss_brownie",
+        "id": "moss_brownie_rw",
         "name": { "str": "Mossberg Brownie pistol" },
         "description": "The first gun produced by O.F. Mossberg & Sons, the Brownie is a small pocket pistol marketed to trappers during the early 20th century.  Its four barrels can accept .22 Short and .22 LR cartridges."
       }
@@ -44,16 +44,16 @@
     "melee_damage": { "bash": 1 }
   },
   {
-    "id": "sw_22",
+    "id": "sw_22_rw",
     "copy-from": "pistol_base",
-    "looks_like": "glock_17",
+    "looks_like": "sw_22",
     "type": "GUN",
     "name": { "str": "S&W target pistol" },
     "description": "A modest offering from the Smith and Wesson (S&W) gun company, this is a medium sized pistol that fires the .22 LR cartridge.  Featuring an integrated rail for optics mounting, it was a popular .22 handgun amongst shooters of the low-power cartridge.",
     "variant_type": "gun",
     "variants": [
       {
-        "id": "sw_22",
+        "id": "sw_22_rw",
         "name": { "str": "S&W 22A pistol" },
         "description": "A modest offering from the Smith and Wesson (S&W) gun company, this is a medium sized pistol that fires the .22 LR cartridge.  Featuring an integrated rail for optics mounting, it was a popular .22 handgun amongst target shooters."
       }
@@ -65,7 +65,6 @@
     "barrel_length": "139 mm",
     "price": "350 USD",
     "price_postapoc": "7 USD 50 cent",
-    "to_hit": -2,
     "material": [ "aluminum", "steel", "plastic" ],
     "color": "dark_gray",
     "ammo": [ "22" ],
@@ -85,12 +84,12 @@
       [ "stock", 1 ],
       [ "underbarrel mount", 1 ]
     ],
-    "pocket_data": [ { "magazine_well": "250 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "sw22mag" ] } ],
+    "pocket_data": [ { "magazine_well": "250 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "sw22mag_rw" ] } ],
     "melee_damage": { "bash": 9 }
   },
   {
-    "id": "j22",
-    "looks_like": "glock_17",
+    "id": "j22_rw",
+    "looks_like": "j22",
     "type": "GUN",
     "copy-from": "pistol_backup",
     "name": { "str": "cheap .22 caliber pistol" },
@@ -98,7 +97,7 @@
     "variant_type": "gun",
     "variants": [
       {
-        "id": "j22",
+        "id": "j22_rw",
         "name": { "str": "Jennings J-22 pistol" },
         "description": "One of the quintessential 'Saturday night specials', the Jennings J-22 was very affordably priced with its injection-molded zinc slide and frame.  Intended to fill the void left after small pocket pistols were banned from import, these were more commonly used by criminals unfazed by their glaring safety issues."
       }
@@ -130,12 +129,12 @@
     ],
     "weapon_category": [ "AUTOMATIC_PISTOLS" ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
-    "pocket_data": [ { "magazine_well": "27 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "j22mag" ] } ],
+    "pocket_data": [ { "magazine_well": "27 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "j22mag_rw" ] } ],
     "melee_damage": { "bash": 1 }
   },
   {
-    "id": "american_180",
-    "looks_like": "hk_mp5",
+    "id": "american_180_rw",
+    "looks_like": "american_180",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": { "str": ".22 caliber submachine gun" },
@@ -143,7 +142,7 @@
     "variant_type": "gun",
     "variants": [
       {
-        "id": "american_180",
+        "id": "american_180_rw",
         "name": { "str": "American-180 submachine gun" },
         "description": "The American-180 is a submachine gun developed in the 1960s that fires .22 LR, unusual for an SMG.  Though the round is low-powered, the high rate of fire and large magazine makes the 180 a formidable weapon."
       }
@@ -154,7 +153,6 @@
     "barrel_length": "470 mm",
     "price": "1 kUSD 630 USD",
     "price_postapoc": "25 USD",
-    "to_hit": -2,
     "material": [ "steel" ],
     "symbol": "(",
     "color": "light_gray",
@@ -182,7 +180,7 @@
     ],
     "faults": [ "fault_gun_blackpowder", "fault_gun_dirt", "fault_gun_chamber_spent" ],
     "pocket_data": [
-      { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "a180mag", "a180mag1", "a180mag2", "a180mag3", "a180mag4" ] }
+      { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "a180mag_rw", "a180mag1_rw", "a180mag2_rw", "a180mag3_rw", "a180mag4_rw" ] }
     ],
     "melee_damage": { "bash": 11 }
   }

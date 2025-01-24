@@ -5,7 +5,7 @@
     "copy-from": "antique_rare",
     "extend": {
       "items": [
-		{ "item": "trex_gun", "prob": 4 }
+		{ "item": "trex_gun_rw", "prob": 4 }
       ]
     }
   }

@@ -40,6 +40,15 @@ https://github.com/CleverRaven/Cataclysm-DDA/pull/78932
 fn1910: Added too collectible pistol spawn group
 https://github.com/CleverRaven/Cataclysm-DDA/pull/76813
 
+Famas:
+https://github.com/CleverRaven/Cataclysm-DDA/pull/72659
+
+Manurhin MR73
+https://github.com/CleverRaven/Cataclysm-DDA/pull/74636
+
+Rivtech HMG: Did not re-add all the ammo types. Should honestly be set up like the .50 HMG. IE make a belt feed for it and give it the MOUNTED_GUN flag.
+https://github.com/CleverRaven/Cataclysm-DDA/pull/70187
+
 --Didnt do
 Some pipe rifles (32, 380, 45 ACP, 9x19/18, 40 S&W) have no or little to no rim to work in a pipe rifle. Big Horn Model 89 and Lemat revolver:
 Skipping the Pipe weaons
@@ -72,3 +81,14 @@ Think about old Survivor stuff
 	
 Maybe find  new  places for some of these spawns 
 https://github.com/CleverRaven/Cataclysm-DDA/pull/78860/files
+
+skorpion_61
+
+Notes:
+- 700nx Ammo might be wrong since I think it needs that barrel length data
+https://github.com/CleverRaven/Cataclysm-DDA/pull/61030
+- "to_hit": -2 is the default standard so I removed it from the files. 
+https://github.com/CleverRaven/Cataclysm-DDA/commit/877c95cf929864476dbf386c2bf65b48e354a11f
+- Removed Bore mod slot on some weapons. Most seemed unused. Modeled after:
+https://github.com/CleverRaven/Cataclysm-DDA/pull/72246
+

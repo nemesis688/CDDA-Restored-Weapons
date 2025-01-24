@@ -45,7 +45,7 @@
     "copy-from": "guns_rifle_common_display_762",
     "extend": {
       "items": [
-		{ "item": "vz58ts", "prob": 10 }
+		{ "item": "vz58ts_rw", "prob": 10 }
       ]
     }
   },
@@ -56,7 +56,7 @@
 	"//": "If the gun is designed for conceal carry, such as being small, use prob from guns_pistol_common.  If full sized, 10-20% of the original prob.  This is an asspull but I know that full sized handguns are gonna be less commonly carried",
     "extend": {
       "items": [
-		{ "item": "kpf9", "prob": 24, "charges": [ 0, -1 ] }
+		{ "item": "kpf9_rw", "prob": 24, "charges": [ 0, -1 ] }
       ]
     }
   },
@@ -78,7 +78,7 @@
     "copy-from": "guns_pistol_common_display_other",
     "extend": {
       "items": [
-		{ "item": "raging_judge", "prob": 10 }
+		{ "item": "raging_judge_rw", "prob": 10 }
       ]
     }
   },
@@ -98,8 +98,8 @@
     "copy-from": "guns_pistol_rare_display_9mm",
     "extend": {
       "items": [
-		{ "item": "mauser_m714", "prob": 8 },
-		{ "item": "minidraco556", "prob": 8 }
+		{ "item": "mauser_m714_rw", "prob": 8 },
+		{ "item": "minidraco556_rw", "prob": 8 }
       ]
     }
   },
@@ -140,7 +140,7 @@
     "copy-from": "guns_pistol_common_display_22",
     "extend": {
       "items": [
-		{ "item": "j22", "prob": 8 }
+		{ "item": "j22_rw", "prob": 8 }
       ]
     }
   },
@@ -150,8 +150,8 @@
     "copy-from": "guns_pistol_common_display_357mag",
     "extend": {
       "items": [
-		{ "item": "cop_38", "prob": 8 },
-		{ "item": "mr73", "prob": 2 }
+		{ "item": "cop_38_rw", "prob": 8 },
+		{ "item": "mr73_rw", "prob": 2 }
       ]
     }
   },
@@ -172,7 +172,7 @@
     "copy-from": "guns_pistol_common_32",
     "extend": {
       "items": [
-		{ "group": "nested_sig_p230", "prob": 5 }
+		{ "group": "nested_sig_p230_rw", "prob": 5 }
       ]
     }
   }

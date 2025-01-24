@@ -1,7 +1,7 @@
 [
   {
-    "id": "mausermag_10rd",
-    "looks_like": "stanag30",
+    "id": "mausermag_10rd_rw",
+    "looks_like": "mausermag_10rd",
     "type": "MAGAZINE",
     "name": { "str": "Mauser 10-round magazine" },
     "description": "A 10-round box magazine for Mauser pistols, specifically variants made to use a detachable magazine.",
@@ -18,8 +18,8 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 10 } } ]
   },
   {
-    "id": "mausermag_20rd",
-    "looks_like": "stanag30",
+    "id": "mausermag_20rd_rw",
+    "looks_like": "mausermag_20rd",
     "type": "MAGAZINE",
     "name": { "str": "Mauser 20-round magazine" },
     "description": "A 20-round box magazine for Mauser pistols, specifically variants made to use a detachable magazine.",
@@ -36,8 +36,8 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 20 } } ]
   },
   {
-    "id": "kpf9mag",
-    "looks_like": "glock17_17",
+    "id": "kpf9mag_rw",
+    "looks_like": "kpf9mag",
     "type": "MAGAZINE",
     "name": { "str": "PF-9 7-round magazine" },
     "description": "A standard 7-round steel box magazine for the Kel-Tec PF-9.",
@@ -54,8 +54,8 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "9mm": 7 } } ]
   },
   {
-    "id": "kpf9mag_8rd",
-    "looks_like": "glock17_17",
+    "id": "kpf9mag_8rd_rw",
+    "looks_like": "kpf9mag_8rd",
     "type": "MAGAZINE",
     "name": { "str": "PF-9 8-round magazine" },
     "description": "A standard steel box magazine with magazine extension installed, for use with the Kel-Tec PF-9.  Holds a total of 8 rounds and provides a better grip for the shooter when loaded.",

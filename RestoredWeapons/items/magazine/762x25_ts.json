@@ -1,8 +1,8 @@
 [
   {
-    "id": "ppshdrum",
+    "id": "ppshdrum_rw",
     "//": "Provisional. Audited by previous PR, longest_side with ImageJ.",
-    "looks_like": "mp5mag",
+    "looks_like": "ppshdrum",
     "type": "MAGAZINE",
     "name": { "str": "PPSh 71-round drum magazine" },
     "description": "A high-capacity drum magazine for the PPSh-41.",
@@ -20,9 +20,9 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762x25": 71 } } ]
   },
   {
-    "id": "ppshmag",
+    "id": "ppshmag_rw",
     "//": "Audited with ImageJ.",
-    "looks_like": "mp5mag",
+    "looks_like": "ppshmag",
     "type": "MAGAZINE",
     "name": { "str": "PPSh 35-round magazine" },
     "description": "A 35-round box magazine for the PPSh-41.",

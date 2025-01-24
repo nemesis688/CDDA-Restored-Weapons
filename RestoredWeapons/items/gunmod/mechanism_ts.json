@@ -6,7 +6,7 @@
     "name": { "str": "drop-in auto sear" },
 	"extend": {
       "mod_targets": [
-		"oa93"
+		"oa93_rw"
       ]
     }
   },
@@ -17,7 +17,7 @@
     "name": { "str": "lightning link" },
 	"extend": {
       "mod_targets": [
-		"oa93"
+		"oa93_rw"
       ]
     }
   }

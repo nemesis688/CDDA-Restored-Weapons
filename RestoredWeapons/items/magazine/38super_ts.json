@@ -1,8 +1,8 @@
 [
   {
-    "id": "af2011a1mag",
+    "id": "af2011a1mag_rw",
     "//": "Volume and weight through comparison.",
-    "looks_like": "glock17_17",
+    "looks_like": "af2011a1mag",
     "type": "MAGAZINE",
     "name": { "str": "AF2011A1 16-round double magazine" },
     "description": "Two .38 Super 8-round box magazines attached to a single base plate, holding up to 16 rounds in total, used by the AF2011A1 double-barrel pistol.",

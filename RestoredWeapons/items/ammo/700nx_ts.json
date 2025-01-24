@@ -1,10 +1,11 @@
 [
   {
-    "id": "700nx",
+    "id": "700nx_rw",
+	"looks_like": "700nx",
     "type": "AMMO",
     "name": { "str_sp": ".700 NX" },
     "description": "The .700 Nitro Express is a very powerful rifle round designed for long-range use.  Its stupendous accuracy and armor piercing capabilities make it one of the most deadly rounds available, offset only by its drastic recoil and noise.",
-    "ascii_picture": "700nx",
+    "ascii_picture": "700nx_rw",
     "weight": "125 g",
     "volume": "165 ml",
     "longest_side": "107 mm",
@@ -16,8 +17,8 @@
     "color": "dark_gray",
     "count": 10,
     "stack_size": 5,
-    "ammo_type": "700nx",
-    "casing": "700nx_casing",
+    "ammo_type": "700nx_rw",
+    "casing": "700nx_casing_rw",
     "range": 42,
     "damage": { "damage_type": "bullet", "amount": 110, "armor_penetration": 30 },
     "dispersion": 15,
@@ -25,8 +26,9 @@
     "effects": [ "COOKOFF" ]
   },
   {
-    "id": "reloaded_700nx",
-    "copy-from": "700nx",
+    "id": "reloaded_700nx_rw",
+    "copy-from": "700nx_rw",
+	"looks_like": "reloaded_700nx",
     "type": "AMMO",
     "name": { "str_sp": ".700 NX, reloaded" },
     "description": "The .700 Nitro Express is a very powerful rifle round designed for long-range use.  Its stupendous accuracy and armor piercing capabilities make it one of the most deadly rounds available, offset only by its drastic recoil and noise.  This one has been hand-reloaded by a survivor or perhaps a pre-Cataclysm hobbyist, leading to slightly inferior performance compared to factory-produced ammo.",
@@ -35,8 +37,9 @@
     "delete": { "effects": [ "NEVER_MISFIRES" ], "flags": [ "IRREPLACEABLE_CONSUMABLE" ] }
   },
   {
-    "id": "bp_700nx",
-    "copy-from": "700nx",
+    "id": "bp_700nx_rw",
+    "copy-from": "700nx_rw",
+	"looks_like": "bp_700nx",
     "type": "AMMO",
     "name": { "str_sp": ".700 NX, black powder" },
     "description": "The .700 Nitro Express is a very powerful rifle round designed for long-range use.  Its stupendous accuracy and armor piercing capabilities make it one of the most deadly rounds available, offset only by its drastic recoil and noise.  Someone was down on their luck when they hand-reloaded this one - it's filled with black powder instead of smokeless powder.  Expect lower velocity, muzzle smoke, and a dirtier barrel if you shoot it.",

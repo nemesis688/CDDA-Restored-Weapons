@@ -1,8 +1,8 @@
 [
   {
-    "id": "90two40mag",
+    "id": "90two40mag_rw",
     "//": "Audited with ImageJ.  Weight from spec sheet.",
-    "looks_like": "glock17_17",
+    "looks_like": "90two40mag",
     "type": "MAGAZINE",
     "name": { "str": "90-two .40 S&W 12-round magazine" },
     "description": "A magazine for the 92 and 96 series of Beretta handguns, this one is for .40 S&W and can hold 12 rounds.",
@@ -20,9 +20,9 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "40": 12 } } ]
   },
   {
-    "id": "ppq40mag_10rd",
+    "id": "ppq40mag_10rd_rw",
     "//": "Copied from .45 PPQ.",
-    "looks_like": "glock17_17",
+    "looks_like": "ppq40mag_10rd",
     "type": "MAGAZINE",
     "name": { "str": "PPQ .40 S&W 10-round magazine" },
     "description": "A 10-round steel box magazine for the Walther PPQ .40 S&W.",
@@ -39,9 +39,9 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "40": 10 } } ]
   },
   {
-    "id": "ppq40mag_12rd",
+    "id": "ppq40mag_12rd_rw",
     "//": "Copied from .45 PPQ, then 1.1x.",
-    "looks_like": "glock17_17",
+    "looks_like": "ppq40mag_12rd",
     "type": "MAGAZINE",
     "name": { "str": "PPQ .40 S&W 12-round magazine" },
     "description": "A 12-round steel box magazine for the Walther PPQ .40 S&W.",
@@ -58,9 +58,9 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "40": 12 } } ]
   },
   {
-    "id": "ppq40mag_14rd",
+    "id": "ppq40mag_14rd_rw",
     "//": "Copied from .45 PPQ, then 1.2x.",
-    "looks_like": "glock17_17",
+    "looks_like": "ppq40mag_14rd",
     "type": "MAGAZINE",
     "name": { "str": "PPQ .40 S&W 14-round magazine" },
     "description": "A 14-round steel box magazine for the Walther PPQ .40 S&W.",

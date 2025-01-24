@@ -1,8 +1,8 @@
 [
   {
-    "id": "90two40",
+    "id": "90two40_rw",
     "copy-from": "pistol_base",
-    "looks_like": "glock_17",
+    "looks_like": "90two40",
     "type": "GUN",
     "name": { "str": "Beretta 90-two .40 S&W" },
     "description": "A more modern version of Beretta's popular 92 series of handguns, the 90-two performs largely the same.  The main difference is a sleeker, almost futuristic-looking design owed in large part to the polymer underbarrel rail cover.  This one is chambered in .40 S&W.",
@@ -20,13 +20,13 @@
     "dispersion": 480,
     "durability": 7,
     "min_cycle_recoil": 504,
-    "pocket_data": [ { "magazine_well": "250 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "90two40mag" ] } ],
+    "pocket_data": [ { "magazine_well": "250 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "90two40mag_rw" ] } ],
     "melee_damage": { "bash": 8 }
   },
   {
-    "id": "walther_ppq_40",
+    "id": "walther_ppq_40_rw",
     "copy-from": "pistol_base",
-    "looks_like": "glock_17",
+    "looks_like": "walther_ppq_40",
     "type": "GUN",
     "name": { "str": "Walther PPQ .40 S&W" },
     "description": "The Walther PPQ is a semi-automatic pistol originating from the Walther P99QA, and maintains compatibility with some of its predecessor's accessories.  This model is chambered in .40 S&W.",
@@ -48,7 +48,7 @@
       {
         "magazine_well": "200 ml",
         "pocket_type": "MAGAZINE_WELL",
-        "item_restriction": [ "ppq40mag_10rd", "ppq40mag_12rd", "ppq40mag_14rd" ]
+        "item_restriction": [ "ppq40mag_10rd_rw", "ppq40mag_12rd_rw", "ppq40mag_14rd_rw" ]
       }
     ],
     "melee_damage": { "bash": 8 }

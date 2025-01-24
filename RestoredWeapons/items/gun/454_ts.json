@@ -1,8 +1,8 @@
 [
   {
-    "id": "raging_judge",
+    "id": "raging_judge_rw",
     "copy-from": "raging_bull",
-    "looks_like": "sw_619",
+    "looks_like": "raging_judge",
     "type": "GUN",
     "name": { "str_sp": "Taurus Raging Judge Magnum" },
     "description": "The Taurus Raging Judge Magnum is a 6-shot revolver chambered in .454 Casull.  It can fire .410 shotshells and .45 Colt cartridges as well.",
@@ -17,7 +17,7 @@
         "pocket_type": "MAGAZINE",
         "holster": true,
         "ammo_restriction": { "454": 6, "410shot": 6, "45colt": 6 },
-        "allowed_speedloaders": [ "454_speedloader6" ]
+        "allowed_speedloaders": [ "454_speedloader6_rw" ]
       }
     ]
   }

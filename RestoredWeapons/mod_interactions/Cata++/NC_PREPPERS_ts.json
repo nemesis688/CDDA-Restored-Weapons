@@ -8,7 +8,7 @@
     "entries": [
       {
         "distribution": [
-          { "collection": [ { "item": "cx4" }, { "item": "m9bigmag", "count": [ 2, 3 ] } ], "prob": 25 },
+          { "collection": [ { "item": "cx4_rw" }, { "item": "m9bigmag", "count": [ 2, 3 ] } ], "prob": 25 },
           { "collection": [ { "item": "sten" }, { "item": "stenmag", "count": [ 2, 3 ] } ], "prob": 25 },
           { "collection": [ { "item": "surv_full_9mm" }, { "item": "surv_9mm_mag", "count": [ 2, 3 ] } ], "prob": 50 }
         ]

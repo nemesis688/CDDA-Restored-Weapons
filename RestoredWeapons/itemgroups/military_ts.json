@@ -6,7 +6,7 @@
 	"subtype": "distribution",
     "extend": {
       "entries": [
-		{ "item": "rm121aux", "prob": 1 }
+		{ "item": "rm121aux_rw", "prob": 1 }
       ]
     }
   },
@@ -17,7 +17,7 @@
 	"subtype": "distribution",
     "extend": {
       "entries": [
-		{ "item": "rm614_lmg", "prob": 1, "charges": [ 0, 250 ] }
+		{ "item": "rm614_lmg_rw", "prob": 1, "charges": [ 0, 250 ] }
       ]
     }
   }

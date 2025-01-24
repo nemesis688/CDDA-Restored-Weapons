@@ -6,7 +6,7 @@
 	"copy-from": "dias",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MODS",
-	"extend": { "tools": [ [ [ "oa93", -1 ] ] ] }
+	"extend": { "tools": [ [ [ "oa93_rw", -1 ] ] ] }
   },
   {
     "type": "recipe",
@@ -15,10 +15,10 @@
 	"copy-from": "llink",
     "category": "CC_WEAPON",
     "subcategory": "CSC_WEAPON_MODS",
-	"extend": { "tools": [ [ [ "oa93", -1 ] ] ] }
+	"extend": { "tools": [ [ [ "oa93_rw", -1 ] ] ] }
   },
   {
-    "result": "rm121aux_mod",
+    "result": "rm121aux_mod_rw",
     "type": "recipe",
     "activity_level": "MODERATE_EXERCISE",
     "category": "CC_*",
@@ -29,6 +29,6 @@
     "time": "90 m",
     "autolearn": true,
     "tools": [ [ [ "large_repairkit", 50 ], [ "small_repairkit", 100 ] ] ],
-    "components": [ [ [ "rm121aux", 1 ] ], [ [ "scrap", 3 ] ], [ [ "plastic_chunk", 1 ] ] ]
+    "components": [ [ [ "rm121aux_rw", 1 ] ], [ [ "scrap", 3 ] ], [ [ "plastic_chunk", 1 ] ] ]
   }
 ]

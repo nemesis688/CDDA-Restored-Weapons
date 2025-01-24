@@ -1,6 +1,6 @@
 [
   {
-    "id": "STI_DS_10",
+    "id": "STI_DS_10_rw",
     "copy-from": "pistol_base",
     "looks_like": "m1911_10",
     "type": "GUN",
@@ -9,7 +9,7 @@
     "variant_type": "gun",
     "variants": [
       {
-        "id": "STI_DS_10",
+        "id": "STI_DS_10_rw",
         "name": { "str": "STI Tactical 2011 DS 10mm pistol" },
         "description": "A next-gen model of the venerable 1911, ready to win World War Z.  Modernized and manufactured by Staccato, sporting a double-stack magwell, sleek solid-steel frame, and ergonomic grip; favored by certain dog-loving assassins.  This model is chambered in 10mm Auto.",
         "weight": 1
@@ -30,7 +30,7 @@
     "min_cycle_recoil": 570,
     "blackpowder_tolerance": 48,
     "flags": [ "ALLOWS_BODY_BLOCK" ],
-    "pocket_data": [ { "magazine_well": "60 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "2011_17_mag", "2011_22_mag" ] } ],
+    "pocket_data": [ { "magazine_well": "60 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "2011_17_mag_rw", "2011_22_mag_rw" ] } ],
     "melee_damage": { "bash": 12 }
   }
 ]

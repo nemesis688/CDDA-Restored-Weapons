@@ -1,8 +1,8 @@
 [
   {
-    "id": "cop_38",
+    "id": "cop_38_rw",
     "copy-from": "pistol_base",
-    "looks_like": "glock_17",
+    "looks_like": "cop_38",
     "type": "GUN",
     "name": { "str": "COP .357 Derringer" },
     "description": "A small, chubby derringer pistol bearing a slight resemblance to the Mossberg Brownie.  It uses a rotating firing pin to fire the individual hammers of the four barrels arranged in a square formation.",
@@ -35,7 +35,7 @@
     "melee_damage": { "bash": 3 }
   },
   {
-    "id": "mr73",
+    "id": "mr73_rw",
     "copy-from": "pistol_revolver",
     "looks_like": "sw_619",
     "type": "GUN",
@@ -49,7 +49,6 @@
     "price_postapoc": "20 USD",
     "built_in_mods": [ "match_trigger" ],
     "default_mods": [ "pistol_grip" ],
-    "to_hit": -2,
     "material": [ "steel", "plastic" ],
     "symbol": "(",
     "color": "light_gray",

@@ -5,7 +5,7 @@
 	"copy-from": "pawn",
 	 "extend": {
       "items": [
-		[ "rm120c", 2 ]
+		[ "rm120c_rw", 2 ]
       ]
     }
   }

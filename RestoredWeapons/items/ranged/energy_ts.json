@@ -1,7 +1,7 @@
 [
   {
-    "id": "plasma_gun",
-    "looks_like": "ar15",
+    "id": "plasma_gun_rw",
+    "looks_like": "plasma_gun",
     "type": "GUN",
     "reload_noise_volume": 10,
     "symbol": "(",
@@ -37,8 +37,8 @@
     "melee_damage": { "bash": 12 }
   },
   {
-    "id": "plasma_rifle",
-    "looks_like": "ar15",
+    "id": "plasma_rifle_rw",
+    "looks_like": "plasma_rifle",
     "type": "GUN",
     "reload_noise_volume": 10,
     "symbol": "(",

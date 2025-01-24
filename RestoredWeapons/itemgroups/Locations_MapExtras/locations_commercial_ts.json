@@ -5,9 +5,9 @@
 	"copy-from": "pawn_guns",
 	 "extend": {
       "items": [
-		[ "trex_gun", 1 ],
-		[ "700nx", 1 ],
-		[ "700nx_casing", 1 ]
+		[ "trex_gun_rw", 1 ],
+		[ "700nx_rw", 1 ],
+		[ "700nx_casing_rw", 1 ]
       ]
     }
   }

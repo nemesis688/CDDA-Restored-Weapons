@@ -1,6 +1,6 @@
 [
   {
-    "id": "2011_17_mag",
+    "id": "2011_17_mag_rw",
     "looks_like": "glock17_17",
     "type": "MAGAZINE",
     "name": { "str": "2011 10mm 17-round magazine" },
@@ -18,7 +18,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "10mm": 17 } } ]
   },
   {
-    "id": "2011_22_mag",
+    "id": "2011_22_mag_rw",
     "looks_like": "glock17_17",
     "type": "MAGAZINE",
     "name": { "str": "2011 10mm 22-round magazine" },

@@ -1,29 +1,29 @@
 [
   {
-    "id": "moss_brownie",
+    "id": "moss_brownie_rw",
     "type": "GUN",
-    "copy-from": "moss_brownie",
+    "copy-from": "moss_brownie_rw",
     "name": { "str": "Mossberg Brownie" },
     "extend": { "flags": [ "OLD_GUN" ] }
   },
   {
-    "id": "mp18",
+    "id": "mp18_rw",
     "type": "GUN",
-    "copy-from": "mp18",
+    "copy-from": "mp18_rw",
     "name": { "str": "MP 18 submachine gun" },
     "extend": { "flags": [ "OLD_GUN" ] }
   },
   {
-    "id": "ppsh",
+    "id": "ppsh_rw",
     "type": "GUN",
-    "copy-from": "ppsh",
+    "copy-from": "ppsh_rw",
     "name": { "str": "PPSh-41 submachine gun" },
     "extend": { "flags": [ "OLD_GUN" ] }
   },
   {
-    "id": "fn1910",
+    "id": "fn1910_rw",
     "type": "GUN",
-    "copy-from": "fn1910",
+    "copy-from": "fn1910_rw",
     "name": { "str": "FN 1910 .380" },
     "extend": { "flags": [ "OLD_GUN" ] }
   }

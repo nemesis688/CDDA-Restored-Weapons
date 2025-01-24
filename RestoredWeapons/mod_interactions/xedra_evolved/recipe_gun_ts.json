@@ -1,0 +1,11 @@
+[
+  {
+    "type": "recipe",
+    "activity_level": "LIGHT_EXERCISE",
+    "result": "inventor_shotgun",
+	"copy-from": "inventor_shotgun",
+    "category": "CC_XEDRA",
+    "subcategory": "CSC_XEDRA_WEAPONS",
+	"extend": { "components": [ [ [ "ksg-25_rw", -1 ] ] ] }
+  }
+]

@@ -1,15 +1,15 @@
 [
   {
-    "id": "mp18",
+    "id": "mp18_rw",
     "copy-from": "smg_base",
-    "looks_like": "hk_mp5",
+    "looks_like": "mp18",
     "type": "GUN",
     "name": { "str": "MP 18 submachine gun" },
     "description": "An early German submachine gun introduced near the end of the First World War, the MP 18 chambers 9x19mm cartridges and makes use of Luger magazines.  Sporting a fixed wooden stock, the weapon more than likely entered the US as a personal holdover from the Great War.",
     "variant_type": "gun",
     "variants": [
       {
-        "id": "mp18",
+        "id": "mp18_rw",
         "name": { "str": "Bergmann MP 18 submachine gun" },
         "description": "An incredibly rare German automatic firearm developed by Hugo Schmeisser whilst working under Bergmann Waffenfabrik during 1918; the MP 18 holds the reputation of being the world's first proper and practical submachine gun.  Chambered for 9x19mm and designed for use in close quarters trench-based combat by assault troops, a role in which it excelled, the weapon was outlawed from military use by the Versailles treaty and was relegated to police and counterinsurgency use in the interwar period.  More than likely entering the US as a personal holdover from the Great War, this century-old grandfather to most classic SMGs just might be better off coming out of retirement now that the world's entered the true greatest war."
       }
@@ -46,8 +46,8 @@
     "melee_damage": { "bash": 10 }
   },
   {
-    "id": "cx4",
-    "looks_like": "modular_ar15",
+    "id": "cx4_rw",
+    "looks_like": "cx4",
     "type": "GUN",
     "reload_noise_volume": 10,
     "name": { "str": "M9 pistol-caliber carbine" },
@@ -55,7 +55,7 @@
     "variant_type": "gun",
     "variants": [
       {
-        "id": "cx4",
+        "id": "cx4_rw",
         "name": { "str": "Cx4 Storm carbine" },
         "description": "A small pistol caliber carbine designed for police use and civilian self-defense, the Cx4 Storm uses magazines that are interchangeable with other Beretta 9x19mm handguns."
       }
@@ -108,15 +108,16 @@
     "melee_damage": { "bash": 8 }
   },
   {
-    "id": "mauser_m714",
+    "id": "mauser_m714_rw",
     "copy-from": "mauser_c96",
+	"looks_like": "mauser_m714",
     "type": "GUN",
     "name": { "str": "reproduction Mauser pistol" },
     "description": "A modern take on the original Mauser design, this variant is chambered for 9x19mm cartridges and, unlike its elder brother, the pre-1900 Mauser Broomhandle, this firearm feeds from detachable box magazines.  Whilst it features surplus Mauser parts in its construction, the frame of the pistol is of relatively modern manufacture.",
     "variant_type": "gun",
     "variants": [
       {
-        "id": "mauser_m714",
+        "id": "mauser_m714_rw",
         "name": { "str": "M714 Broomhandle pistol" },
         "description": "Recognized the world over as one of the first practical self-loading pistols, the Mauser C96 and its derivatives are nearly universally regarded as some of the most classic and rugged guns in history, with the model being praised as a true marvel of industrial craftsmanship.  However, what rests before you is not an original production C96, but rather a modern American spin on the original Mauser recipe.  Feeding from detachable box magazines rather than an internal clip, the M714 is crafted out of a mix of modern and surplus parts, being chambered for 9x19mm rounds, with some other models being offered in the Mauser's own 7.63x25mm cartridge."
       }
@@ -126,12 +127,13 @@
     "price": "900 USD",
     "price_postapoc": "5 USD",
     "pocket_data": [
-      { "magazine_well": "60 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "mausermag_20rd", "mausermag_10rd" ] }
+      { "magazine_well": "60 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "mausermag_20rd_rw", "mausermag_10rd_rw" ] }
     ]
   },
   {
-    "id": "kpf9",
+    "id": "kpf9_rw",
     "copy-from": "kp32",
+	"looks_like": "kpf9",
     "type": "GUN",
     "name": { "str": "Kel-Tec PF-9 pistol" },
     "description": "The Kel-Tec PF-9 remains one of the most popular backup pistols due to its history of reliability, affordability, and concealability.  Chambered in 9x19mm, recoil is best described as unpleasant, and follow-up shots are difficult to place quickly.",
@@ -144,7 +146,7 @@
     "price_postapoc": "20 USD",
     "ammo": [ "9mm" ],
     "min_cycle_recoil": 450,
-    "pocket_data": [ { "magazine_well": "65 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "kpf9mag", "kpf9mag_8rd" ] } ],
+    "pocket_data": [ { "magazine_well": "65 ml", "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "kpf9mag_rw", "kpf9mag_8rd_rw" ] } ],
     "melee_damage": { "bash": 2 }
   }
 ]

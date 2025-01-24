@@ -3,6 +3,6 @@
     "id": "ammo_700nx",
     "type": "requirement",
     "//": "Components required for 700 NX ammo",
-    "components": [ [ [ "700nx_casing", 1 ] ], [ [ "lgrifle_primer", 1 ] ] ]
+    "components": [ [ [ "700nx_casing_rw", 1 ] ], [ [ "lgrifle_primer", 1 ] ] ]
   }
 ]

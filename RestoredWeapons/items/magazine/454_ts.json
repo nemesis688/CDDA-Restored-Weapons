@@ -1,7 +1,8 @@
 [
   {
-    "id": "454_speedloader6",
+    "id": "454_speedloader6_rw",
     "copy-from": "454_speedloader5",
+	"looks_like": "454_speedloader6",
     "type": "MAGAZINE",
     "name": { "str": ".454 6-round speedloader" },
     "description": "This speedloader can hold 5 rounds of .454, .45 Colt or .410 bore and quickly reload a compatible revolver.",

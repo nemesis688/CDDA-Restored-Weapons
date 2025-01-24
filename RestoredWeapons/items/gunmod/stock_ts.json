@@ -6,11 +6,11 @@
     "name": { "str": "Mauser C96 stock" },
 	"extend": {
       "mod_targets": [
-		"mauser_m714"
+		"mauser_m714_rw"
       ],
 	  "pocket_data": [
 		{
-		"item_restriction": [ "mauser_m714" ]
+		"item_restriction": [ "mauser_m714_rw" ]
 		}
       ]
     }

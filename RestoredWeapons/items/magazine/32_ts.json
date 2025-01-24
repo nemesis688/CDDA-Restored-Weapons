@@ -1,8 +1,8 @@
 [
   {
-    "id": "sigp230mag",
+    "id": "sigp230mag_rw",
     "//": ".380 magazine audited with ImageJ and scaled down for 32.  Weight using ratio method.",
-    "looks_like": "glock17_17",
+    "looks_like": "sigp230mag",
     "type": "MAGAZINE",
     "name": { "str": "P230 8-round magazine" },
     "description": "A factory specification 8-round magazine for the SIG Sauer P230.",

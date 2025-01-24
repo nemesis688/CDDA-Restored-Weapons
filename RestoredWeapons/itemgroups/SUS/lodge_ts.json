@@ -7,7 +7,7 @@
 	"//": "items found in a rifle hunting space",
 	 "extend": {
       "entries": [
-		{ "item": "colt_lightning", "prob": 2, "charges": [ 0, 10 ] }
+		{ "item": "colt_lightning_rw", "prob": 2, "charges": [ 0, 10 ] }
       ]
     }
   }

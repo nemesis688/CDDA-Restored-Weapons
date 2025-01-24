@@ -13,7 +13,7 @@
 	"//": "Military specification gunmods found only at military sites.",
     "extend": {
       "items": [
-		[ "rm121aux", 10 ]
+		[ "rm121aux_rw", 10 ]
       ]
     }
   }

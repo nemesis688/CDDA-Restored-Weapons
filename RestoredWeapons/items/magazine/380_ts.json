@@ -1,8 +1,8 @@
 [
   {
-    "id": "kp3atmag",
+    "id": "kp3atmag_rw",
     "//": "Previously audited, longest_side estimated.",
-    "looks_like": "glock17_17",
+    "looks_like": "kp3atmag",
     "type": "MAGAZINE",
     "name": { "str": "P-3AT 6-round magazine" },
     "description": "A standard 6-round steel box magazine for the Kel-Tec P-3AT.",
@@ -19,9 +19,9 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "380": 6 } } ]
   },
   {
-    "id": "fn1910mag",
+    "id": "fn1910mag_rw",
     "//": "Audited with ImageJ, weight estimated.",
-    "looks_like": "glock17_17",
+    "looks_like": "fn1910mag",
     "type": "MAGAZINE",
     "name": { "str": "FN 1910 6-round magazine" },
     "description": "A standard 6-round steel box magazine for the FN 1910.  It looks a bit old.",
@@ -38,9 +38,9 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "380": 6 } } ]
   },
   {
-    "id": "taurus_spectrum_mag",
+    "id": "taurus_spectrum_mag_rw",
     "//": "Audited with comparison.",
-    "looks_like": "glock17_17",
+    "looks_like": "taurus_spectrum_mag",
     "type": "MAGAZINE",
     "name": { "str": "Taurus Spectrum 6-round magazine" },
     "description": "A compact, 6-round steel box magazine for use with the Taurus Spectrum.",

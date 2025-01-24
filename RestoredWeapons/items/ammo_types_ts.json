@@ -1,8 +1,14 @@
 [
   {
     "type": "ammunition_type",
-	"id": "700nx",
+	"id": "700nx_rw",
     "name": ".700 Nitro Express",
-    "default": "700nx"
+    "default": "700nx_rw"
+  },
+  {
+    "type": "ammunition_type",
+    "id": "20x66mm_rw",
+    "name": "20x66mm caseless shotgun",
+    "default": "20x66_shot_rw"
   }
 ]

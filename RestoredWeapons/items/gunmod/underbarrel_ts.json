@@ -1,7 +1,8 @@
 [
   {
-    "id": "ksg25_aux_shotgun",
+    "id": "ksg25_aux_shotgun_rw",
     "copy-from": "underbarrel_base",
+	"looks_like": "ksg25_aux_shotgun",
     "type": "GUNMOD",
     "name": { "str": "KSG-25 second magazine" },
     "description": "The integrated second tube magazine of the Kel-Tec KSG-25, which holds 12 shots.  It's irremovable.",
@@ -29,15 +30,16 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "ammo_restriction": { "shot": 12 } } ]
   },
   {
-    "id": "rm121aux",
+    "id": "rm121aux_rw",
     "copy-from": "underbarrel_base",
+	"looks_like": "rm121aux",
     "type": "GUNMOD",
     "name": { "str": "caseless aux shotgun" },
     "description": "Designated the Rivtech RM121 auxiliary weapon system, this is a magazine-fed semi-automatic caseless shotgun, which can be mounted under the barrel of many rifles.  Accepts RMSA10 box magazines.",
     "variant_type": "gun",
     "variants": [
       {
-        "id": "rm121aux",
+        "id": "rm121aux_rw",
         "name": { "str": "RM121 aux shotgun" },
         "description": "The Rivtech RM121 auxiliary weapon system is a magazine-fed semi-automatic caseless shotgun, which can be mounted under the barrel of many rifles.  Accepts RMSA10 box magazines."
       }
@@ -54,21 +56,23 @@
     "location": "underbarrel",
     "blacklist_mod": [ "knife_combat_army", "knife_combat", "enfield_bayonet", "knife_combat_marine", "makeshift_bayonet", "sword_bayonet" ],
     "mod_targets": [ "rifle", "crossbow" ],
-    "gun_data": { "barrel_length": "419 mm", "ammo": "20x66mm", "skill": "shotgun", "dispersion": 320, "durability": 9, "reload": 125 },
+    "gun_data": { "barrel_length": "419 mm", "ammo": "20x66mm_rw", "skill": "shotgun", "dispersion": 320, "durability": 9, "reload": 125 },
     "min_skills": [ [ "weapon", 2 ], [ "shotgun", 2 ] ],
     "flags": [ "WATERPROOF_GUN", "NEVER_JAMS" ],
-    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "20x66_10_mag" ] } ]
+    "pocket_data": [ { "pocket_type": "MAGAZINE_WELL", "item_restriction": [ "20x66_10_mag_rw" ] } ]
   },
   {
-    "id": "rm121aux_mod",
-    "copy-from": "rm121aux",
+    "id": "rm121aux_mod_rw",
+    "copy-from": "rm121aux_rw",
+	"looks_like": "rm121aux_mod",
     "type": "GUNMOD",
     "name": { "str": "modified RM121 aux shotgun" },
     "description": "The Rivtech RM121 auxiliary weapon system is a magazine-fed semi-automatic caseless shotgun, which can be mounted under the barrel of many rifles.  Accepts RMSA10 box magazines.  This one was modified and customized to mount on pretty much any weapon other than pistols, if you so want.",
     "mod_targets": [ "smg", "rifle", "shotgun", "launcher", "crossbow" ]
   },
   {
-    "id": "factory_handguard",
+    "id": "factory_handguard_rw",
+	"looks_like": "factory_handguard",
     "type": "GUNMOD",
     "name": { "str": "factory handguard" },
     "description": "A removable molded grip that comes standard on guns without rails.  It's not as efficient as a proper forward grip or bipod at controlling recoil, but it's better than nothing.",
@@ -80,7 +84,7 @@
     "symbol": ":",
     "color": "light_gray",
     "location": "underbarrel mount",
-    "mod_targets": [ "fs2000" ],
+    "mod_targets": [ "fs2000_rw" ],
     "handling_modifier": 2,
     "min_skills": [ [ "weapon", 2 ] ]
   }

@@ -20,7 +20,7 @@
 	"//2": "Almost certainly shouldn't put Famas Mag here buy yolo.",
     "extend": {
       "items": [
-		{ "item": "famasmag", "prob": 1 }
+		{ "item": "famasmag_rw", "prob": 1 }
       ]
     }
   }

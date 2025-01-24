@@ -1,6 +1,6 @@
 [
   {
-    "id": "vz58mag10",
+    "id": "vz58mag10_rw",
     "//": "Dimensions and weight are from previous PR, not sure of methods. Based on a pinned magazine.",
     "looks_like": "stanag30",
     "type": "MAGAZINE",
@@ -19,7 +19,7 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "762": 10 } } ]
   },
   {
-    "id": "vz58mag30",
+    "id": "vz58mag30_rw",
     "//": "Dimensions and weight are from previous PR, not sure of methods.",
     "looks_like": "stanag30",
     "type": "MAGAZINE",

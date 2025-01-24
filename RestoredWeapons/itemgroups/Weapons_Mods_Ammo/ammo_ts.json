@@ -6,7 +6,7 @@
 	"subtype": "distribution",
     "extend": {
       "entries": [
-		{ "item": "700nx", "prob": 10 }
+		{ "item": "700nx_rw", "prob": 10 }
       ]
     }
   },
@@ -17,7 +17,7 @@
 	"subtype": "collection",
     "extend": {
       "entries": [
-		{ "item": "700nx", "prob": 20 }
+		{ "item": "700nx_rw", "prob": 20 }
       ]
     }
   },
@@ -28,7 +28,7 @@
 	"subtype": "distribution",
     "extend": {
       "entries": [
-		{ "item": "700nx_casing", "prob": 20 }
+		{ "item": "700nx_casing_rw", "prob": 20 }
       ]
     }
   },
@@ -38,7 +38,7 @@
     "copy-from": "casings",
     "extend": {
       "items": [
-		{ "item": "700nx_casing", "prob": 10 }
+		{ "item": "700nx_casing_rw", "prob": 10 }
       ]
     }
   },
@@ -49,10 +49,10 @@
 	"subtype": "distribution",
     "extend": {
       "entries": [
-		{ "item": "20x66_beanbag", "prob": 10 },
-		{ "item": "20x66_flare", "prob": 10 },
-		{ "item": "20x66_shot", "prob": 40 },
-		{ "item": "20x66_slug", "prob": 20 },
+		{ "item": "20x66_beanbag_rw", "prob": 10 },
+		{ "item": "20x66_flare_rw", "prob": 10 },
+		{ "item": "20x66_shot_rw", "prob": 40 },
+		{ "item": "20x66_slug_rw", "prob": 20 },
 		{ "item": "shot_dragon", "prob": 10 },
 		{ "item": "shot_beanbag", "prob": 20 }
       ]
@@ -65,10 +65,10 @@
 	"subtype": "collection",
     "extend": {
       "entries": [
-		{ "item": "20x66_beanbag", "prob": 20 },
-		{ "item": "20x66_flare", "prob": 20 },
-		{ "item": "20x66_shot", "prob": 80 },
-		{ "item": "20x66_slug", "prob": 40 },
+		{ "item": "20x66_beanbag_rw", "prob": 20 },
+		{ "item": "20x66_flare_rw", "prob": 20 },
+		{ "item": "20x66_shot_rw", "prob": 80 },
+		{ "item": "20x66_slug_rw", "prob": 40 },
 		{ "item": "shot_dragon", "prob": 20 },
 		{ "item": "shot_beanbag", "prob": 40 }
       ]
@@ -82,10 +82,10 @@
 	"subtype": "distribution",
     "extend": {
       "entries": [
-		{ "item": "20x66_beanbag", "prob": 20 },
-		{ "item": "20x66_flare", "prob": 20 },
-		{ "item": "20x66_shot", "prob": 80 },
-		{ "item": "20x66_slug", "prob": 40 },
+		{ "item": "20x66_beanbag_rw", "prob": 20 },
+		{ "item": "20x66_flare_rw", "prob": 20 },
+		{ "item": "20x66_shot_rw", "prob": 80 },
+		{ "item": "20x66_slug_rw", "prob": 40 },
 		{ "item": "shot_dragon", "prob": 20 },
 		{ "item": "shot_beanbag", "prob": 40 }
       ]

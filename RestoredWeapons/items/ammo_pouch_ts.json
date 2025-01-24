@@ -54,8 +54,8 @@
           "44paper": 60,
           "762R": 60,
           "paintball": 60,
-		  "700nx": 60,
-		  "20x66mm": 60
+		  "700nx_rw": 60,
+		  "20x66mm_rw": 60
         },
         "moves": 35,
         "volume_encumber_modifier": 0.3
@@ -120,7 +120,7 @@
         "volume_encumber_modifier": 0.25
       },
       {
-        "ammo_restriction": { "410shot": 6, "shot": 6, "signal_flare": 6, "20x66mm": 50 },
+        "ammo_restriction": { "410shot": 6, "shot": 6, "signal_flare": 6, "20x66mm_rw": 50 },
         "moves": 25,
         "volume_encumber_modifier": 0.2
       }

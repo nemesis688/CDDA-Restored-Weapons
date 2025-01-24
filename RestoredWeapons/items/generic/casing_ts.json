@@ -1,8 +1,8 @@
 [
   {
-    "id": "700nx_casing",
+    "id": "700nx_casing_rw",
     "copy-from": "casing",
-    "looks_like": "50beowulf_casing",
+    "looks_like": "700nx_casing",
     "type": "GENERIC",
     "name": { "str": ".700 NX casing" },
     "description": "An empty casing from a .700 NX round.  These are rare, so you might want to hold onto them.",

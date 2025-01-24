@@ -1,8 +1,8 @@
 [
   {
-    "id": "colt_lightning",
+    "id": "colt_lightning_rw",
     "copy-from": "rifle_manual",
-    "looks_like": "modular_ar15",
+    "looks_like": "colt_lightning",
     "type": "GUN",
     "name": { "str": "Colt Lightning .45 Carbine" },
     "description": "A modern reproduction of a Colt pump-action rifle.  Originally chambered in .44-40, modern versions most commonly use .45 Colt, complementing the Single Action Army as a Cowboy Action Shooting firearm.",

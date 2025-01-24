@@ -1,7 +1,7 @@
 [
   {
-    "id": "famasmag",
-    "looks_like": "stanag30",
+    "id": "famasmag_rw",
+    "looks_like": "famasmag",
     "type": "MAGAZINE",
     "name": { "str": "MAS 25-round magazine" },
     "description": "A 25-round magazine for the MAS .223.  It resembles a STANAG magazine but is not compatible nor interchangeable.",

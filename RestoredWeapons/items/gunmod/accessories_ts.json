@@ -6,10 +6,10 @@
     "name": { "str": "belt clip" },
 	"extend": {
       "mod_targets": [
-		"moss_brownie",
-		"kp3at",
-		"kpf9",
-		"cop_38"
+		"moss_brownie_rw",
+		"kp3at_rw",
+		"kpf9_rw",
+		"cop_38_rw"
       ]
     }
   }

@@ -1,6 +1,6 @@
 [
   {
-    "result": "reloaded_700nx",
+    "result": "reloaded_700nx_rw",
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
     "category": "CC_AMMO",
@@ -19,7 +19,7 @@
     "components": [ [ [ "gunpowder", 165 ], [ "gunpowder_large_rifle", 165 ] ], [ [ "copper", 10 ] ] ]
   },
   {
-    "result": "bp_700nx",
+    "result": "bp_700nx_rw",
     "type": "recipe",
     "activity_level": "LIGHT_EXERCISE",
     "category": "CC_AMMO",
